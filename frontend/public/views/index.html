@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="../img/favicon.png" rel="icon">
+    <title>Online Tournament</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://kit.fontawesome.com/d1b777a615.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div class="center">
+            <a href="#">
+                <h1>Online Tournament</h1>
+            </a>
+
+            <a href="#" class="menu">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <nav>
+                <a href="" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#tournaments">Tournaments</a>
+                <a href="./login.html" class="nav-btn" id="btnSign">Sign in</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="center">
+            <div class="banner-text">
+                <h1>Lorem ipsum dolor sit amet consectetur</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam optio culpa, vitae officiis delectus
+                    aut debitis itaque in ipsum reprehenderit.</p>
+
+                <div class="banner-links">
+                    <a href="#" class="banner-btn">
+                        Quero embarcar
+                        <i class="fa fa-rocket"></i>
+                    </a>
+                    <a href="#">Mais informações</a>
+                </div>
+            </div>
+
+            <img src="../img/banner.png" alt="">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="center">
+            <img src="../img/space.jpg" alt="">
+
+            <div class="about-text">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusantium, velit quis cum
+                    blanditiis totam enim mollitia expedita repudiandae ullam facere nemo voluptatibus? Aut, sapiente
+                    cumque. Qui rem quia magnam?</p>
+
+                <ul>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        Lorem ipsum dolor
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        Consectetur adipisicing
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        Quibusdam accusantium
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        Consequuntur in enim
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        Expedita repudiandae ullam
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        Aut, sapiente cumque
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="tournaments" class="tech">
+        <div class="center">
+            <h2>Tournaments</h2>
+            <a href="./createTournament.html" class="nav-btn">Create tournament</a>
+
+            <div class="tech-list" id="tournamentCard">
+            </div>
+        </div>
+    </section>
+
+    <section class="tech">
+        <div class="center">
+            <h2>Upcoming Tournaments</h2>
+
+            <div class="tech-list" id="upcomingTounamentsCard">
+            </div>
+        </div>
+    </section>
+
+    <section class="tech">
+        <div class="center">
+            <h2>Scoreboards</h2>
+
+            <div class="tech-list" id="scoreboardCard">
+            </div>
+        </div>
+    </section>
+
+    <section class="tech">
+        <div class="center">
+            <h2>My Tournaments</h2>
+
+            <div class="tech-list" id="myTounamentsCard">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="../img/favicon.png" alt="Rocketseat">
+        <p>made with <i class="fa fa-heart"></i></p>
+    </footer>
+
+    <script>
+        const menu = document.querySelector('.menu');
+        menu.addEventListener('click', function () {
+            this.classList.toggle('open');
+        });
+    </script>
+    <script src="../js/controllers/indexController.js"></script>
+</body>
+
+</html>

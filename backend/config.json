@@ -1,0 +1,18 @@
+﻿{
+    "database": {
+        "host": "eu-cdbr-west-02.cleardb.net",
+        "user": "b684deffec0f96",
+        "password": "87d59613",
+        "database": "heroku_c71ec6e5f2a4c65"
+    },
+    "secret": "40b87f129296c9f7d45ca170d6ba9db6643d091f42e2a88bffae5b4c90c874cb",
+    "emailFrom": "online.tournament.app@gmail.com",
+    "smtpOptions": {
+        "host": "smtp.gmail.com",
+        "port": 465,
+        "auth": {
+            "user": "online.tournament.app",
+            "pass": "cegonha420"
+        }
+    }
+}

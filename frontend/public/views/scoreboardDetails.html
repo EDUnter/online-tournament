@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Online Tournment</title>
+    <link href="../img/favicon.png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="../css/authStyles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            overflow: visible;
+        }
+
+        .avatar {
+            vertical-align: middle;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 1em;
+        }
+
+        .table {
+            margin-top: 20px;
+        }
+
+        .table thead {
+            background: #111;
+            color: #fff;
+        }
+
+        .table tr th,
+        .table tr td:nth-child(odd) {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <img class="wave" src="../img/wave.png">
+    <div class="container">
+        <div class="img">
+            <img src="../img/bg.svg">
+        </div>
+        <div class="login-content">
+            <form action="index.html">
+                <h1 class="title" id="title">Scoreboard</h1>
+
+                    <table id="socreboard" class="table striped">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Name</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table">
+
+                        </tbody>
+                    </table>
+
+                <a href="./index.html">Go Back?</a>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../js/controllers/scoreboardDetailsController.js"></script>
+</body>
+
+</html>

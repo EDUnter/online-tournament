@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Online Tournment</title>
+	<link href="../img/favicon.png" rel="icon">
+	<link rel="stylesheet" type="text/css" href="../css/authStyles.css">
+    <script src="https://kit.fontawesome.com/d1b777a615.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			overflow: visible;
+		}
+	</style>
+</head>
+
+<body>
+	<img class="wave" src="../img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="../img/tournament.svg">
+		</div>
+		<div class="login-content">
+			<form action="index.html">
+					<h2 class="title" style="font-size:1.5rem;">Register Tournament</h2>
+				<div class="input-div one">
+					<div class="i">
+						<i class="fas fa-signature"></i>
+					</div>
+					<div class="div">
+						<h5 style>Name</h5>
+						<input type="text" id="nameInput" class="input">
+					</div>
+				</div>
+				<div class="input-div pass">
+					<div class="i">
+						<i class="fa-solid fa-graduation-cap"></i>
+					</div>
+					<div class="div">
+						<h5>Discipline</h5>
+						<input type="text" id="disciplineInput" class="input">
+					</div>
+				</div>
+                <div class="input-div pass">
+					<div class="i">
+						<i class="fa-solid fa-hourglass-start"></i>
+					</div>
+					<div class="div">
+						<h5>Time</h5>
+						<input type="text" id="timeInput" class="input">
+					</div>
+				</div>
+                <div class="input-div pass">
+					<div class="i">
+						<i class="fa-solid fa-map-location-dot"></i>
+					</div>
+					<div class="div">
+						<h5>Google Maps Location</h5>
+						<input type="text" id="gmLocationInput" class="input">
+					</div>
+				</div>
+                <div class="input-div pass">
+					<div class="i">
+						<i class="fa-solid fa-users"></i>
+					</div>
+					<div class="div">
+						<h5>Participants Max Number</h5>
+						<input type="text" id="maxNrInput" class="input">
+					</div>
+				</div>
+                <div class="input-div pass">
+					<div class="i">
+						<i class="fa-solid fa-hourglass-end"></i>
+					</div>
+					<div class="div">
+						<h5>Application Deadline</h5>
+						<input type="text" id="applicationDeadlineInput" class="input">
+					</div>
+				</div>
+                <div class="input-div pass">
+					<div class="i">
+						<i class="fa-solid fa-hand-holding-dollar"></i>
+					</div>
+					<div class="div">
+						<h5>Sponsor Logos</h5>
+						<input type="file" id="sponsorLogosInput" class="input">
+					</div>
+				</div>
+                <div class="input-div pass">
+					<div class="i">
+						<i class="fa-solid fa-user-group"></i>
+					</div>
+					<div class="div">
+						<h5>Number Of Ranked Players</h5>
+						<input type="text" id="nrRankedPlayersInput" class="input">
+					</div>
+				</div>
+				<a href="./register.html">Go Back?</a>
+				<input type="submit" id="btnRegister" class="btn" value="Register">
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/main.js"></script>
+	<script type="text/javascript" src="../js/controllers/createTournamentController.js"></script>
+</body>
+
+</html>

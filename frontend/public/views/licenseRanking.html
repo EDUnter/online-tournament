@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Online Tournment</title>
+	<link href="../img/favicon.png" rel="icon">
+	<link rel="stylesheet" type="text/css" href="../css/authStyles.css">
+    <script src="https://kit.fontawesome.com/d1b777a615.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			overflow: visible;
+		}
+	</style>
+</head>
+
+<body>
+	<img class="wave" src="../img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="../img/tournament.svg">
+		</div>
+		<div class="login-content">
+			<form action="index.html">
+					<h2 class="title" style="font-size:1.5rem;">Register Tournament</h2>
+				<div class="input-div one">
+					<div class="i">
+						<i class="fa fa-id-card-o" aria-hidden="true"></i>
+					</div>
+					<div class="div">
+						<h5 style>License</h5>
+						<input type="text" id="licenseInput" class="input">
+					</div>
+				</div>
+				<div class="input-div pass">
+					<div class="i">
+						<i class="fa fa-star" aria-hidden="true"></i>
+					</div>
+					<div class="div">
+						<h5>Ranking</h5>
+						<input type="text" id="rankingInput" class="input">
+					</div>
+				</div>
+				<input type="submit" id="btnRegister" class="btn" value="Apply">
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/main.js"></script>
+	<script type="text/javascript" src="../js/controllers/licenseRankingController.js"></script>
+</body>
+
+</html>
