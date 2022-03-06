@@ -1,5 +1,5 @@
 <!--<h1 align="center">
-    <img alt="Online Tournament" title="#delicious" src="/frontend/public/img/favicon.png" width="200px" />
+    <img alt="Online Tournament" title="#delicious" src="favicon.png" width="200px" />
 </h1>-->
 
 <h4 align="center">
