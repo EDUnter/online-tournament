@@ -1,5 +1,5 @@
 <!--<h1 align="center">
-    <img alt="BeTheHero" title="#delicinha" src=".github/bethehero.svg" width="200px" />
+    <img alt="Online Tournament" title="#delicious" src="/frontend/public/img/favicon.png" width="200px" />
 </h1>-->
 
 <h4 align="center">
@@ -11,26 +11,19 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-technologies">Technlogies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technlogies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
 <br>
 
-<!--<p align="center">
-  <img alt="BeTheHero" src=".github/bethehero.png" width="100%">
-</p>-->
-
-## :rocket: Technologies
+## 🚀 Technologies
 
 This project was developed with the folowing technologies:
 
 - [Node.js](https://nodejs.org/en/)
-- [Next.js](https://nextjs.org/)
-- [Prisma](https://www.prisma.io/)
-- [GraphQL](https://graphql.org/graphql-js/)
+- [Sequelize](https://sequelize.org/)
 - [PostgreSQL](https://www.postgresql.org/)
 
 ## 💻 Project
@@ -40,13 +33,10 @@ conduct tournaments in a discipline selected by students. The organizers can set
 tournament, limits on the number of participants and sponsor logos while competitors can apply to
 participate and enter the results of their encounters.
 
-## 🔖 Layout
-
-
 ## :memo: License
 
 This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
 
 ---
 
-Made by ♥ edunter :wave:
+Made by edunt3r with ♥  :wave:
